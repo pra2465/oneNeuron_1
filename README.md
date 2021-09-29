@@ -3,7 +3,12 @@ oneNeuron_1|Perceptron
 
 
 # commands used -
+###
+* point 1
+* point 2
 
+
+1. point 1
 
 '''bash
 git add . && git commit  -m "docstring updated" && git push origin main
@@ -43,3 +48,23 @@ def main(data , eta , epochs , filename, plotFileName):
     save_model(model, filename=filename)
     save_plot(df, plotFileName , model)
 ```    
+## dataset
+
+
+x1 | x2 | y
+-|-|-
+0|0|0  
+0|1|0 
+1|0|0 
+1|1|1 
+
+
+
+
+
+ AND = {
+         "x1": [0,0,1,1],
+         "x2":[0,1,0,1],
+         "y":[0,0,0,1],
+    }
+
